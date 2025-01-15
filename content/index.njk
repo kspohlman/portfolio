@@ -4,5 +4,36 @@ title: "My Home Page"
 description: "A collection of things"
 ---
 
-<h1>My Cool Site</h1>
-<p>Welcome</p>
+<header>
+    <nav>
+        <a href="/">Logo here</a>
+    </nav>
+    <div class="">
+        <h1>Hiya, I'm Katie—an HTML/CSS-loving UX Designer with more than a decade of experience.</h1>
+        <a href="/about">Learn More ⟶</a>
+    </div>
+</header>
+
+<main>
+    <section>
+        <h2>My work</h2>
+        <div class="project-grid">
+            {%- for project in collections.projects -%}
+                <div class="project-card">
+                    <h3>{{project.data.title}}</h3>
+                    <a href="{{project.url}}">See more</a>
+                </div>
+            {%- endfor -%}
+        </div>
+    </section>
+
+    <section>
+        <h2>Let's Connect</h2>
+        <div>
+            <a href="mailto:katiepohlman3@gmail.com">Email</a>
+            <a href="https://www.linkedin.com/in/kspohlman/">LinkedIn</a>
+            <a href="https://dribbble.com/kspohlman">Dribbble</a>
+        </div>
+    </section>
+</main>
+

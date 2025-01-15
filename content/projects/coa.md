@@ -1,5 +1,5 @@
 ---
-title: "Our First Project"
+title: "COA"
 description: "Hello to the world!"
 date: 2024-12-07
 layout: "layouts/base.njk"
