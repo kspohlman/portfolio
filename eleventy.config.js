@@ -1,0 +1,25 @@
+export default async function(eleventyConfig) {
+    // We'll put stuff here soon
+  };
+  
+  export const config = {
+    templateFormats: [
+      "md",
+      "njk",
+      "html"
+    ],
+  
+    // Process *.md as NJK
+    markdownTemplateEngine: "njk",
+  
+    // Process *.html as NJK
+    htmlTemplateEngine: "njk",
+  
+    // Define the directory structure
+    dir: {
+      input: "content",
+      includes: "../_includes", // relative to content/
+      data: "../_data", // relative to content/
+      output: "_site"
+    },
+  }
