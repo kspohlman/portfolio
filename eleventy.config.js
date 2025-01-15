@@ -1,5 +1,6 @@
 export default async function(eleventyConfig) {
-    // We'll put stuff here soon
+
+    eleventyConfig.addPassthroughCopy("bundle.css");
   };
   
   export const config = {
