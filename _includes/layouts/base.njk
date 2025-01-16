@@ -16,9 +16,19 @@
   </head>
 
   <body>
-    {{ content | safe}}
-    <footer>
-        <p>All content copyright {{metadata.author.name}}, 2025</p>
-    </footer>
+    <div class="container">
+      {{ content | safe}}
+      <footer>
+          <h2>Let's Connect ⟶</h2>
+          <div class="u-flex u-flex-wrap u-push-top--lg">
+              <a class="button" href="mailto:katiepohlman3@gmail.com">Email</a>
+              <a class="button" target="blank" href="https://www.linkedin.com/in/kspohlman/">LinkedIn</a>
+              <a class="button" target="blank" href="https://dribbble.com/kspohlman">Dribbble</a>
+          </div>
+
+          <hr class="u-push-top--xxl u-push-bottom" />
+          <p class="note">All rights reserved, 2025</p>
+      </footer>
+    </div>
   </body>
 </html>
