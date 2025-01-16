@@ -11,8 +11,10 @@
 
     --color-light: #f7f7f7;
     --color-dark: #2e2e2e;
-    --color-accent: #00b8b1;
+    --color-accent: #450dff;
+    --color-accent-lt: #5842ff;
     --color-gray: #808080;
+    --color-gray-lt: #e0e0e0;
 }
 
 
@@ -173,13 +175,14 @@ a {
     border-bottom: 2px solid var(--color-accent);
     box-shadow: inset 0px -8px 0px var(--color-accent);
     text-decoration: none;
-    transition: box-shadow .1s ease;
+    transition: all .1s ease;
 }
 
 a:hover,
 a:focus,
 a:active {
     box-shadow: inset 0px -22px 0px var(--color-accent);
+    color: var(--color-light);
 }
 
 b {
@@ -262,12 +265,13 @@ nav ul {
 /* Project grid on homepage */
 .project-grid {
     display: grid;
-        gap: var(--space);
+        gap: var(--space-lg);
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: var(--space);
 }
 
 .project-card {
-    border: 1px solid black;
+    box-shadow: 0 0 10px 3px var(--color-gray-lt);
     border-radius: var(--border-radius);
     padding: var(--space);
 }
@@ -308,7 +312,7 @@ a.button {
 .button:hover,
 .button:active,
 .button:focus {
-    background-color: var(--color-accent);
+    background-color: var(--color-accent-lt);
 }
 
 
