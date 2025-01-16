@@ -11,8 +11,8 @@
 
     --color-light: #f7f7f7;
     --color-dark: #2e2e2e;
-    --color-accent: #450dff;
-    --color-accent-lt: #5842ff;
+    --color-accent: #c9eb07;
+    --color-accent-lt: #e9ff6c;
     --color-gray: #808080;
     --color-gray-lt: #e0e0e0;
 }
@@ -126,6 +126,12 @@ footer {
         gap: var(--space-lg) var(--space-xl);
 }
 
+.left-aside {
+    display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: var(--space-lg) var(--space-xl);
+}
+
 @media screen and (max-width: 768px) {
     .right-aside {
         grid-template-columns: 1fr
@@ -142,6 +148,7 @@ hr {
       );
     border: none;
     height: 10px;
+    margin-top: var(--space-xl);
 }
 
 
@@ -155,6 +162,7 @@ h3 {
     font-family: "DM Serif Text", serif;
     font-weight: 900;
     line-height: 1.1;
+    margin-bottom: var(--space);
 }
 
 h1 {
@@ -182,7 +190,6 @@ a:hover,
 a:focus,
 a:active {
     box-shadow: inset 0px -22px 0px var(--color-accent);
-    color: var(--color-light);
 }
 
 b {
@@ -263,18 +270,20 @@ nav ul {
 
 /* /////////////////////////////////////////// */
 /* Project grid on homepage */
-.project-grid {
+.grid {
     display: grid;
         gap: var(--space-lg);
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
     margin-top: var(--space);
 }
 
 .project-card {
     box-shadow: 0 0 10px 3px var(--color-gray-lt);
     border-radius: var(--border-radius);
-    padding: var(--space);
+    padding: var(--space-lg);
 }
+
+
 
 /* /////////////////////////////////////////// */
 /* Resume */
@@ -301,7 +310,7 @@ a.button {
     border: 0;
     border-radius: 80px;
     box-shadow: none;
-    color: var(--color-light);
+    color: var(--color-dark);
     display: inline-block;
     font-size: .9rem;
     font-weight: 600;
@@ -320,10 +329,7 @@ a.button {
 /* ////////////////////////////////////////// */
 /* UTILITIES */
 
-/* Flex / Grid */
-.u-grid {
-    display: grid;
-}
+/* Flex */
 
 .u-flex {
     display: flex;

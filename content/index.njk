@@ -12,17 +12,18 @@ description: "A collection of things"
         <h1>Hiya, I'm Katie—an HTML/CSS-loving UX Designer with more than a decade of experience.</h1>
         <a href="/about">Learn More ⟶</a>
     </div>
-<hr class="u-push-top--xl"/>
+<hr/>
 </header>
 
 
 <main>
     <section>
         <h2>My work</h2>
-        <div class="project-grid">
+        <div class="grid">
             {%- for project in collections.projects -%}
                 <div class="project-card">
-                    <h3>{{project.data.title}}</h3>
+                    <h3>{{project.data.description}}</h3>
+                    <p><b>{{project.data.client}}</b></p>
                     <a href="{{project.url}}">See more</a>
                 </div>
             {%- endfor -%}

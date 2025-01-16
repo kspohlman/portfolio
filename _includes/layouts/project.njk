@@ -1,0 +1,42 @@
+---
+layout: /layouts/base
+---
+
+<header>
+    <nav>
+        <a href="/" class="logo"><img src="/assets/img/logo.svg" alt="Logo" /></a>
+        <ul>
+            <li><a href="/">Work</li>
+            <li><a href="/about">About</a></li>
+        </ul>
+    </nav>
+    <h1>{{description}}</h1>
+    <p class="intro">{{client}}</p>
+    <hr />
+</header>
+
+<main>
+    <section>
+        <img src="{{intro-image}}">
+        <p>{{context}}</p>
+    </section>
+    <section class="right-aside u-push-top--xl">
+        <div>
+            <h2>Challenge</h2>
+            <p>{{challenge}}</p>
+        </div>
+        <img src="{{challenge-image}}">
+    </section>
+    <section class="right-aside u-push-top--xl">
+        <div>
+            <h2>Solution</h2>
+            <p>{{solution}}</p>
+        </div>
+        <img src="{{challenge-image}}">
+    </section>
+    <section class="grid">
+        {%- for image in images -%}
+            <img src="{{image}}">
+        {%- endfor -%}
+    </section>
+</main>
