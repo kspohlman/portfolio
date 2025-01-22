@@ -11,8 +11,8 @@
 
     --color-light: #f7f7f7;
     --color-dark: #2e2e2e;
-    --color-accent: #c9eb07;
-    --color-accent-lt: #e9ff6c;
+    --color-accent: #572cf2;
+    --color-accent-lt: #e1d9fc;
     --color-gray: #808080;
     --color-gray-lt: #e0e0e0;
 }
@@ -72,6 +72,10 @@ table {
 	border-spacing: 0;
 }
 
+img {
+    width: 100%;
+}
+
 
 /* //////////////////////////////////////////// */
 /* Layout and base styling stuff */
@@ -81,14 +85,14 @@ body {
     color: var(--color-dark);
     font-family: "Roboto", sans-serif;
     font-size: clamp(16px, 4vmin, 18px);
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .container {
     display: grid;
     grid-template-rows: auto 1fr auto;
     grid-template-areas: "header" "main" "footer";
-    gap: var(--space-xl);
+    gap: var(--space-lg);
     height: 100%;
     min-height: 100vh;
     
@@ -162,12 +166,11 @@ h3 {
     font-family: "DM Serif Text", serif;
     font-weight: 900;
     line-height: 1.1;
-    margin-bottom: var(--space);
+    margin-bottom: var(--space-sm);
 }
 
 h1 {
     font-size: clamp(2rem, 8vmin, 3rem);
-    margin-bottom: var(--space-sm);
 }
 
 h2 {
@@ -180,8 +183,9 @@ h3 {
 
 a {
     color: var(--color-dark);
-    border-bottom: 2px solid var(--color-accent);
-    box-shadow: inset 0px -8px 0px var(--color-accent);
+    border-bottom: 2px solid var(--color-accent-lt);
+    box-shadow: inset 0px -8px 0px var(--color-accent-lt);
+    font-weight: 400;
     text-decoration: none;
     transition: all .1s ease;
 }
@@ -189,7 +193,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-    box-shadow: inset 0px -22px 0px var(--color-accent);
+    box-shadow: inset 0px -22px 0px var(--color-accent-lt);
 }
 
 b {
@@ -197,11 +201,12 @@ b {
 }
 
 p + p {
-    margin-top: var(--space-sm);
+    margin-top: var(--space);
 }
 
 p + h1,
-p + h2 {
+p + h2,
+p + h3 {
     margin-top: var(--space-xl);
 }
 
@@ -215,7 +220,7 @@ h2 + h3 {
 
 .note {
     color: var(--color-gray);
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 .intro {
@@ -286,7 +291,7 @@ nav ul {
 
 
 /* /////////////////////////////////////////// */
-/* Resume */
+/* Headshot */
 .headshot {
     border-radius: 50%;
     display: flex;
@@ -301,6 +306,22 @@ nav ul {
 }
 
 
+
+/* /////////////////////////////////////////// */
+/* Datalists */
+dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-sm);
+}
+
+dt {
+    font-weight: 700;
+}
+
+
+
+
 /* /////////////////////////////////////////// */
 /* Buttons */
 .button,
@@ -310,18 +331,19 @@ a.button {
     border: 0;
     border-radius: 80px;
     box-shadow: none;
-    color: var(--color-dark);
+    color: var(--color-light);
     display: inline-block;
     font-size: .9rem;
     font-weight: 600;
     padding: var(--space-sm) var(--space-lg);
-    transition: all .1s ease;
+    transition: all .2s ease;
 }
 
 .button:hover,
 .button:active,
 .button:focus {
     background-color: var(--color-accent-lt);
+    color: var(--color-dark);
 }
 
 
