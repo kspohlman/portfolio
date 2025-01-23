@@ -10,6 +10,7 @@ timeline: "2+ years"
 layout: "layouts/project.njk"
 tags:
   - projects
+cover_image: "/assets/img/coa-preview.png"
 intro_image: "/assets/img/coa-cover.png"
 challenge_image: "/assets/img/coa-sketches.jpg"
 solution_image: "/assets/img/coa-employer-dashboard.png"

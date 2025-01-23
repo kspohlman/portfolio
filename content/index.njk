@@ -22,6 +22,7 @@ description: "A collection of things"
         <div class="grid">
             {%- for project in collections.projects -%}
                 <div class="project-card">
+                    <img src="{{project.data.cover_image}}" alt="Image of {{project.data.client}} app" />
                     <h3>{{project.data.description}}</h3>
                     <h4>{{project.data.client}}</h4>
                     <a href="{{project.url}}">See more</a>
