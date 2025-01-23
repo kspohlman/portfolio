@@ -269,6 +269,7 @@ nav ul {
     cursor: pointer;
     height: 1.5rem;
     transition: all .1s ease;
+    width: auto;
 }
 
 .logo:hover img,
