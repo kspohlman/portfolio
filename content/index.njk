@@ -9,7 +9,7 @@ description: "A collection of things"
         <a href="/" class="logo"><img src="/assets/img/logo.svg" alt="Logo" /></a>
     </nav>
     <div class="">
-        <h1>Hiya, I'm Katie—an HTML/CSS-loving UX Designer with more than a decade of experience.</h1>
+        <h1>Hi, I'm Katie—an HTML/CSS-loving UX Designer with more than a decade of experience.</h1>
         <a href="/about">Learn More</a>
     </div>
 <hr/>
@@ -18,12 +18,12 @@ description: "A collection of things"
 
 <main>
     <section>
-        <h2>My work</h2>
+        <h2>Samples of work</h2>
         <div class="grid">
             {%- for project in collections.projects -%}
                 <div class="project-card">
                     <h3>{{project.data.description}}</h3>
-                    <p><b>{{project.data.client}}</b></p>
+                    <h4>{{project.data.client}}</h4>
                     <a href="{{project.url}}">See more</a>
                 </div>
             {%- endfor -%}
