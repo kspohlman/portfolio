@@ -5,8 +5,8 @@ context: Parker Dewey is rethinking the hiring process through micro-internships
 challenge: Improve the employers' user experience and overall interface without causing disruption.
 solution: Streamlined UX patterns and updated UI components to fit the organization's brand refresh while maintaining cohesion with the legacy portions of the app.
 date: 2024-12-07
-audience: 
-timeline: 
+audience: Hiring Managers
+timeline: 3+ months
 layout: "layouts/project.njk"
 tags:
   - projects
