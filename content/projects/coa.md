@@ -18,9 +18,7 @@ images:
 
 <!-- My Contributions -->
 
-<p>As the Project Lead and UX Designer, I was responsible for crafting the UI/UX design while building and maintaining shared understanding between the Launch Scout team and client.</p>
-<p>
-  I helped lead a discovery phase to build shared understanding between the Launch Scout team and COA and create a storymap, release plan, and roadmap. I crafted the foundational design system alongside another UX Designer, iterated on the user experience and interface, and was responsible for building out the HTML and CSS. 
+<p>I served as the Project Lead and UX Designer for this project with Launch Scout. As Project Lead, I was responsible for keeping the team on task, on budget, and on time. As UX Designer, I helped lead a discovery phase to build shared understanding between the Launch Scout team and COA and create a storymap, release plan, and roadmap. I crafted the foundational design system alongside another UX Designer, iterated on the user experience and interface, and was responsible for building out the HTML and CSS. 
 </p>
 <p>
   The design system and front-end code maintains AAA accessibility compliance in an effort to include as much of our target audience as possible.

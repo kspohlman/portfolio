@@ -1,9 +1,9 @@
 ---
 client: "Parker Dewey"
-description: "Incrementally refreshing a design system"
-context: 
-challenge: 
-solution: 
+description: "Incrementally refreshing the user experience for managing micro-internships"
+context: Parker Dewey is rethinking the hiring process through micro-internships. Employers and students are able to connect, interview, and manage projects easily; enabling students to gain real-world experience and employers to find and acquire talent faster.
+challenge: Improve the employers' user experience and overall interface without causing disruption.
+solution: Streamlined UX patterns and updated UI components to fit the organization's brand refresh while maintaining cohesion with the legacy portions of the app.
 date: 2024-12-07
 audience: 
 timeline: 
@@ -18,4 +18,4 @@ images:
 
 <!-- My Contributions -->
 
-<p></p>
+<p>I one of two UX Designers on this project for Launch Scout. We completed a dedicated Discovery Phase to better understand user needs and develop mockups. The entire application's UI was refreshed with the brand's updated color palette and typefaces, while the employer side of the app received a UX refresh. We also built out the HTML and CSS for the updated portions of the application.</p>
