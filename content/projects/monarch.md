@@ -10,10 +10,12 @@ timeline: "1+ year"
 layout: "layouts/project.njk"
 tags:
   - projects
-intro_image: "/assets/img/monarch-cover.png"
-challenge_image:
-solution_image:
+cover_image: "/assets/img/monarch-cover.png"
+intro_image: "/assets/img/monarch-intro.png"
+challenge_image: "/assets/img/monarch-mobile.png"
+solution_image: "/assets/img/monarch-payroll.png"
 images:
+  - "/assets/img/monarch-logo.png"
 ---
 
 <!-- My Contributions -->
