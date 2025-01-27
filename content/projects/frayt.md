@@ -19,4 +19,4 @@ images:
 
 <!-- My Contributions -->
 
-<p>As the UX Designer on this project with Launch Scout, I was responsible for creating a cohesive design system from an existing application. I used the existing prototype as a basis to simplify UI components and establish UX patterns. I also built the HTML and CSS for the front-end of the product as we iteratively replaced portions of the app.</p>
+<p>As the UX Designer on this project with Launch Scout, I was responsible for creating a cohesive design system from an existing application. I used the existing prototype as a basis to create a design system, simplify UI components and establish UX patterns. I also built the HTML and CSS for the front-end of the product as we iteratively replaced portions of the app.</p>
