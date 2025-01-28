@@ -10,7 +10,7 @@ description: "A collection of things"
     </nav>
     <div>
         <h1>Hi, I'm Katie—an HTML/CSS-loving UX Designer with more than a decade of experience.</h1>
-        <a href="/about">Learn More</a>
+        <a href="/about">About me ⟶</a>
     </div>
 <hr/>
 </header>
@@ -19,12 +19,12 @@ description: "A collection of things"
 <main>
     <section>
         <h2>Samples of work</h2>
-        <div class="grid">
+        <div class="grid u-push-top--lg">
             {%- for project in collections.projects -%}
                 <div class="project-card">
                     <img src="{{project.data.cover_image}}" alt="Image of {{project.data.client}} app" />
                     <h3>{{project.data.description}}</h3>
-                    <h4>{{project.data.client}}</h4>
+                    <h4 class="u-push-bottom">{{project.data.client}}</h4>
                     <a href="{{project.url}}">See more</a>
                 </div>
             {%- endfor -%}
