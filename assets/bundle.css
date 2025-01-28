@@ -296,6 +296,7 @@ nav ul {
 .logo {
     border-bottom: 0;
     box-shadow: none;
+    width: 40px;
 }
 
 .logo:hover,
@@ -304,17 +305,23 @@ nav ul {
     box-shadow: none;
 }
 
-.logo img {
+.logo svg {
     cursor: pointer;
-    height: 1.5rem;
-    transition: all .1s ease;
+    fill: var(--color-dark);
+    transition: all .2s ease;
     width: auto;
 }
 
-.logo:hover img,
-.logo:active img,
-.logo:focus img {
+.logo:hover svg,
+.logo:active svg,
+.logo:focus svg {
     transform: scale(1.1);
+}
+
+.logo:hover .astrik,
+.logo:active .astrik,
+.logo:focus .astrik {
+    fill: var(--color-accent);
 }
 
 
