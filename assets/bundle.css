@@ -129,14 +129,15 @@ footer {
 }
 
 footer > .links {
-    display: flex;
+    display: grid;
+    grid-template-columns: min-content min-content min-content;
     gap: var(--space);
     align-items: baseline;
 }
 
 @media screen and (max-width: 480px) {
-    footer > .links .button {
-        display: block;
+    footer > .links {
+        grid-template-columns: 1fr;
     }
 }
 
