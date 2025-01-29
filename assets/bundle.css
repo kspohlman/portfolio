@@ -173,6 +173,9 @@ hr {
     border: none;
     height: 10px;
     margin-top: var(--space-xl);
+    position: relative;
+        left: clamp(-600px, -10vw, -2rem);
+    width: 105%;
 }
 
 
@@ -350,9 +353,6 @@ nav ul {
     box-shadow: 0 0 10px 3px var(--color-gray-lt);
     border-radius: var(--border-radius);
     padding: var(--space-lg);
-}
-
-.project-card img {
 }
 
 
