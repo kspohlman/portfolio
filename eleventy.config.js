@@ -1,7 +1,8 @@
 export default async function(eleventyConfig) {
     
     eleventyConfig.addPassthroughCopy("bundle.css");
-    eleventyConfig.addPassthroughCopy("assets");
+    eleventyConfig.addPassthroughCopy("assets/img");
+    eleventyConfig.addPassthroughCopy({ "assets/favicon": "/" });
 
     return {
       passthroughFileCopy: true
