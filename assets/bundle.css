@@ -10,10 +10,10 @@
     --border-radius: 6px;
 
     --color-light: #f7f7f7;
-    --color-dark: #2e2e2e;
-    --color-accent: #0055ff;
-    --color-accent-lt: #b6edff;
-    --color-accent-xlt: #e6f9ff;
+    --color-dark: #24272d;
+    --color-accent: #004ee9;
+    --color-accent-lt: #afdffe;
+    --color-accent-xlt: #eaf3ff;
     --color-gray: #808080;
     --color-gray-lt: #e0e0e0;
 }
@@ -204,7 +204,7 @@ h3 {
 }
 
 h1 {
-    font-size: clamp(2rem, 8vmin, 3rem);
+    font-size: clamp(1.8rem, 8vmin, 3rem);
 }
 
 h2 {
