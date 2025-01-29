@@ -13,6 +13,7 @@
     --color-dark: #2e2e2e;
     --color-accent: #0055ff;
     --color-accent-lt: #b6edff;
+    --color-accent-xlt: #e6f9ff;
     --color-gray: #808080;
     --color-gray-lt: #e0e0e0;
 }
@@ -112,6 +113,7 @@ footer {
 }
 
 header {
+    background-color: var(--color-accent-xlt);
     grid-area: header;
 }
 
@@ -175,7 +177,12 @@ hr {
     margin-top: var(--space-xl);
     position: relative;
         left: clamp(-600px, -10vw, -2rem);
-    width: 105%;
+    width: calc(100% + 10vw);
+}
+
+header hr {
+    height: 14px;
+    top: 2rem;
 }
 
 
